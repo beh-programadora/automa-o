@@ -1,0 +1,37 @@
+
+### .gitignore
+```plaintext
+# Ignorar arquivos e pastas específicas
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de ambiente virtual
+env/
+venv/
+
+# Ignorar arquivos de configuração específicos de IDEs
+.idea/
+.vscode/
+Enunciado do Projeto
+Título: Automação de Envio de Email com PyAutoGUI
+
+Objetivo:
+Desenvolver um script que utilize a biblioteca PyAutoGUI para automatizar o processo de envio de email no Gmail. O script deve abrir o navegador, fazer login na conta do Gmail, compor e enviar um email automaticamente.
+
+Requisitos:
+
+O script deve ser implementado em Python utilizando a biblioteca PyAutoGUI.
+O usuário deve fornecer as credenciais de email, destinatário, assunto e corpo da mensagem diretamente no código (ou preferencialmente de uma maneira mais segura).
+O script deve automatizar a abertura do navegador, o login no Gmail, a composição e o envio do email.
+Entregáveis:
+
+Código-fonte do script de automação (automacao_email.py).
+Arquivo README.md explicando como configurar e executar o script.
+Arquivo .gitignore para ignorar arquivos desnecessários no repositório.
+Critérios de Avaliação:
+
+Funcionamento correto do script de automação.
+Clareza e organização do código.
+Qualidade da documentação no README.md.
