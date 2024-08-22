@@ -1,0 +1,33 @@
+import pyautogui
+import time
+
+pyautogui.PAUSE = 1  # Pausa de 1 segundo entre cada comando
+
+# Abrir o Google
+pyautogui.press('win')
+pyautogui.write("google")
+pyautogui.press('enter')
+time.sleep(7)
+pyautogui.click(502, 437)
+time.sleep(4)
+pyautogui.hotkey("ctrl", "shift", "N")  # Corrigido: 'pyautogui' em vez de 'pyautogui'
+time.sleep(7)
+pyautogui.write('https://mail.google.com/mail/u/0/#inbox')
+pyautogui.press('enter')
+time.sleep(7)  # Espera para o Gmail carregar
+pyautogui.write("coloque aqui se email")
+pyautogui.press('enter')
+time.sleep(7)
+pyautogui.write("coloque aqui sua senha ")
+pyautogui.press('enter')
+time.sleep(4)
+pyautogui.click (97, 183)
+pyautogui.write("coloque aqui o email para quem voce irá enviar")
+pyautogui.press('tab')
+time.sleep(4)
+pyautogui.write("coloque aqui o assunto")
+pyautogui.press('tab’')
+time.sleep(4)
+pyautogui.write("coloque aqui a mensagem que ira enviar")
+pyautogui.press('tab')
+pyautogui.click (841, 692)
